@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("Hello")
+        
+        print("Version 1.1 Updates")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
