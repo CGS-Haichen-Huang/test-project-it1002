@@ -12,6 +12,8 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Dogs are extremely tasty. Why so much hate?")
 
         // Do any additional setup after loading the view.
     }

@@ -12,6 +12,7 @@
 		061708D41ECD1C2D0092019F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061708D21ECD1C2D0092019F /* Main.storyboard */; };
 		061708D61ECD1C2D0092019F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061708D51ECD1C2D0092019F /* Assets.xcassets */; };
 		061708D91ECD1C2D0092019F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061708D71ECD1C2D0092019F /* LaunchScreen.storyboard */; };
+		0633E3DF1EF752930013B787 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0633E3DE1EF752930013B787 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		061708D51ECD1C2D0092019F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061708D81ECD1C2D0092019F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		061708DA1ECD1C2D0092019F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0633E3DE1EF752930013B787 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				061708CE1ECD1C2D0092019F /* AppDelegate.swift */,
 				061708D01ECD1C2D0092019F /* ViewController.swift */,
+				0633E3DE1EF752930013B787 /* SecondViewController.swift */,
 				061708D21ECD1C2D0092019F /* Main.storyboard */,
 				061708D51ECD1C2D0092019F /* Assets.xcassets */,
 				061708D71ECD1C2D0092019F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0633E3DF1EF752930013B787 /* SecondViewController.swift in Sources */,
 				061708D11ECD1C2D0092019F /* ViewController.swift in Sources */,
 				061708CF1ECD1C2D0092019F /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				061708DF1ECD1C2D0092019F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
